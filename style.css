@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:beige;
+    width: 100VW;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    width: 500px;
+    background-color: rgba(211, 224, 220, 0.555);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+#altime{
+    font-size: 18px;
+    width: 60%;
+    border-radius: 9px;
+}
+#albtn{
+    width: 30%;
+    margin: 5px;
+    font-size: 18px;
+    border-radius: 9px;
+
+}
+#music{
+    display: none;
+}
+h1{
+    position: relative;
+    left: 0px;
+    animation-name: animate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    display: none;
+    
+}
+@keyframes animate {
+    0% {
+        left: -20px;
+        color: rgb(216, 41, 41);
+    }
+    50% {
+        left: 0px;
+        
+    }
+    100% {
+        left: 20px;
+        color: brown;
+    }
+  }
